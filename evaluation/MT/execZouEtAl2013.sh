@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nohup nice python /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/src/augmentPhraseTable.py -p /cs/natlang-projects/LR-Hiero/CN-EN/Model/training/phr-alignments/model/backup/phrase-table.gz -s /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/resources/biling_trained_Zh_vectors.txt -t /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/resources/En_vectors.txt -o /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/resources/phrase-table.zou-et-al-2013.gz > /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/resources/augment.log 2> /cs/natlang-user/jasneet/Thesis/Code/MT/Moses-Zou-et-al-2013/Code/Zou-et-al-2013/resources/augment.error.log &
+
